@@ -112,8 +112,12 @@ main {
 }
 
 /* call now section style  */
+.call-now {
+    margin: 130px 0px;
+}
+
 .call-now-container {
-    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-blend-mode: hard-light;
     color: white;
     padding: 60px;
@@ -125,4 +129,61 @@ main {
     font-size: 40px;
     line-height: 47px;
     margin-bottom: 24px;
+}
+
+/* footer section styles  */
+footer {
+    background: #151414;
+    color: white;
+    padding: 130px 230px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 330px;
+}
+
+.social-area-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.social-area-description {
+    font-size: 16px;
+    padding: 20px 0px;
+}
+
+.email>a,
+.tel>a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.social-icons>img {
+    margin-right: 17px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#subscribe-email{
+    padding: 20px;
+    font-size: 18px;
+    color: #F3F3F3;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+#subscribe-email::placeholder{
+    color: #F3F3F3;
+}
+.subscribe-btn{
+    background-color: #005FAC;
+    color: white;
+    margin-top: 16px;
 }
