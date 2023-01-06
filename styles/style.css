@@ -105,7 +105,24 @@ main {
     font-size: 20px;
     line-height: 35px;
 }
-.plan-subtitle{
+
+.plan-subtitle {
     color: #737272;
     font-size: 18px;
+}
+
+/* call now section style  */
+.call-now-container {
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-blend-mode: hard-light;
+    color: white;
+    padding: 60px;
+    border-radius: 8px;
+}
+
+.call-now-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
 }
