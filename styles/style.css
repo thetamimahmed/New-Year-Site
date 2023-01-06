@@ -79,7 +79,33 @@ main {
     line-height: 26px;
     color: #444343;
 }
-.failure-list > p{
+
+.failure-list>p {
     font-size: 16px;
     color: #444343;
+}
+
+/* my plan section style  */
+.myplan-section {
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+    margin-top: 60px;
+}
+
+.plan-title {
+    margin: 20px 0 13px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+}
+.plan-subtitle{
+    color: #737272;
+    font-size: 18px;
 }
