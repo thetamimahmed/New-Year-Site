@@ -73,7 +73,8 @@ main {
     width: 400px;
 }
 
-.failure-description {
+.failure-description,
+.about-me-description {
     margin: 24px 0px 16px;
     font-size: 16px;
     line-height: 26px;
@@ -83,6 +84,21 @@ main {
 .failure-list>p {
     font-size: 16px;
     color: #444343;
+}
+
+/* about me styles  */
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+    align-items: center;
+    margin: 70px 0px;
+}
+
+.about-me-img {
+    border-radius: 25%;
+    width: 400px;
+    margin-top: -80px;
 }
 
 /* my plan section style  */
@@ -171,7 +187,8 @@ footer {
     font-size: 25px;
     margin-bottom: 30px;
 }
-#subscribe-email{
+
+#subscribe-email {
     padding: 20px;
     font-size: 18px;
     color: #F3F3F3;
@@ -179,10 +196,12 @@ footer {
     border: 1px solid #ffffff;
     border-radius: 8px;
 }
-#subscribe-email::placeholder{
+
+#subscribe-email::placeholder {
     color: #F3F3F3;
 }
-.subscribe-btn{
+
+.subscribe-btn {
     background-color: #005FAC;
     color: white;
     margin-top: 16px;
